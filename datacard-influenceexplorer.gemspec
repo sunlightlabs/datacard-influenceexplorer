@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'hashie'
-  s.add_dependency 'httparty'
+  s.add_dependency 'httparty', '~>0.10.0'
   s.add_dependency 'json'
   s.add_dependency 'faraday'
   s.add_dependency 'datajam-datacard'
